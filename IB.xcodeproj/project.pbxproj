@@ -8,19 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2945DF631BFBA1BD00375018 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945DF621BFBA1BD00375018 /* AppDelegate.swift */; };
-		2945DF651BFBA1BD00375018 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945DF641BFBA1BD00375018 /* ViewController.swift */; };
 		2945DF681BFBA1BD00375018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2945DF661BFBA1BD00375018 /* Main.storyboard */; };
-		2945DF6A1BFBA1BD00375018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2945DF691BFBA1BD00375018 /* Assets.xcassets */; };
-		2945DF6D1BFBA1BD00375018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2945DF6B1BFBA1BD00375018 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2945DF5F1BFBA1BD00375018 /* IB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2945DF621BFBA1BD00375018 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2945DF641BFBA1BD00375018 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2945DF671BFBA1BD00375018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2945DF691BFBA1BD00375018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2945DF6C1BFBA1BD00375018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2945DF6E1BFBA1BD00375018 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,11 +48,8 @@
 		2945DF611BFBA1BD00375018 /* IB */ = {
 			isa = PBXGroup;
 			children = (
-				2945DF621BFBA1BD00375018 /* AppDelegate.swift */,
-				2945DF641BFBA1BD00375018 /* ViewController.swift */,
 				2945DF661BFBA1BD00375018 /* Main.storyboard */,
-				2945DF691BFBA1BD00375018 /* Assets.xcassets */,
-				2945DF6B1BFBA1BD00375018 /* LaunchScreen.storyboard */,
+				2945DF621BFBA1BD00375018 /* AppDelegate.swift */,
 				2945DF6E1BFBA1BD00375018 /* Info.plist */,
 			);
 			path = IB;
@@ -122,8 +113,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2945DF6D1BFBA1BD00375018 /* LaunchScreen.storyboard in Resources */,
-				2945DF6A1BFBA1BD00375018 /* Assets.xcassets in Resources */,
 				2945DF681BFBA1BD00375018 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +124,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2945DF651BFBA1BD00375018 /* ViewController.swift in Sources */,
 				2945DF631BFBA1BD00375018 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,14 +137,6 @@
 				2945DF671BFBA1BD00375018 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2945DF6B1BFBA1BD00375018 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2945DF6C1BFBA1BD00375018 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -248,7 +228,6 @@
 		2945DF721BFBA1BD00375018 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.mhorga.IB;
@@ -259,7 +238,6 @@
 		2945DF731BFBA1BD00375018 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.mhorga.IB;
@@ -286,6 +264,7 @@
 				2945DF731BFBA1BD00375018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
